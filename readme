@@ -1,0 +1,22 @@
+Use your projectStarter script to create a project named "W3C"
+Connect your folder to Git/GitHub
+Create the standard header, main footer layout
+Include a logo in the top header
+In the main include:
+One "meet the team" section that contains 3 articles, with each article containing:
+One image, one title and one paragraph
+The paragraph should not show up on mobile but should on tablet and desktop
+Hint - The CSS property display: none will help here
+These articles should change their grid layout based on how much room is available horizontally.
+One "our product" section that contains 2 articles, with each article containing:
+One image and one paragraph.
+On mobile and tablet the order of the articles should be image, paragraph, image paragraph
+On desktop each article should be 2 columns:
+One with the image on the left and text on the right
+The other with the image on the right and text on the left
+Hint: The order property will be very helpful here!
+In the footer include:
+Three columns. One for social media links, one for an email and phone button, the other for links to fake internal pages
+These columns should stack vertically on smaller screens and spread horizontally on larger screens
+Please use margin or padding at least twice to give some minor adjustments to spacing around elements on the page.
+Once complete, add, commit, and push the files with the commit message "Added responsive media queries to style".
