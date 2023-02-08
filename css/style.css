@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#page_head{
+    background-color: blue;
+    color: coral;
+    text-size-adjust: 1.5rem;
+    height: 200px;
+    width: 100vw;
+}
+#page_head>nav{
+    background-color: springgreen;
+}
+#page_content{
+   display: grid;
+   grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+}
+.art_container>img{
+    width: 250px;
+    height:50%;
+    object-fit: cover;
+
+    
+}
+.art_container>h1{
+    color: aqua;
+    size: 1em;
+}
+.art_container>p{
+    color: brown;
+    size: 1rem;
+}
